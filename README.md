@@ -20,8 +20,8 @@
 
 **Interpretation:** markets appear to price much geopolitical risk *before* the headline, and the reaction depends on whether supply is physically disrupted. The clearest effect is on **risk (volatility)** rather than on average price direction. The next step is to separate supply-disrupting events from threat-only events.
 
-![CAR paths](outputs/figures/01_car_paths.png)
-![Event heatmap](outputs/figures/03_event_heatmap.png)
+![CAR paths](01_car_paths.png)
+![Event heatmap](03_event_heatmap.png)
 
 ## 1. Project overview
 This project measures the abnormal price reaction of 8 energy-linked assets to 16 geopolitical events between 2019 and 2025: Hormuz tanker attacks, the Abqaiq strike, Red Sea Houthi attacks, Russia–Ukraine, the Israel–Iran escalations, and OPEC+ shocks. It uses the standard event-study framework from academic finance (MacKinlay, 1997). For each asset it estimates a "normal" return model on clean pre-event data, isolates the abnormal return around each event, and tests whether the average cumulative reaction differs from zero.
